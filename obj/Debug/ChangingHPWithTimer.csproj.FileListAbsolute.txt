@@ -1,2 +1,7 @@
 C:\Users\rileyju\Documents\GitHub\ChangingHPWithTimer\ChangingHPWithTimer\bin\Debug\ChangingHPWithTimer.exe.config
 C:\Users\rileyju\Documents\GitHub\ChangingHPWithTimer\bin\Debug\ChangingHPWithTimer.exe.config
+L:\Game Design\ChangingHealthWithTimer\ChangingHPWithTimer\bin\Debug\ChangingHPWithTimer.exe.config
+L:\Game Design\ChangingHealthWithTimer\ChangingHPWithTimer\obj\Debug\ChangingHPWithTimer.csprojResolveAssemblyReference.cache
+L:\Game Design\ChangingHealthWithTimer\ChangingHPWithTimer\obj\Debug\ChangingHPWithTimer.Dice.resources
+L:\Game Design\ChangingHealthWithTimer\ChangingHPWithTimer\obj\Debug\ChangingHPWithTimer.Properties.Resources.resources
+L:\Game Design\ChangingHealthWithTimer\ChangingHPWithTimer\obj\Debug\ChangingHPWithTimer.csproj.GenerateResource.Cache
