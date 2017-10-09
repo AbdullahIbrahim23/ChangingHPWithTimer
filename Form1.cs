@@ -12,23 +12,12 @@ using System.Windows.Forms;
 
 namespace ChangingHPWithTimer
 {
-    // Create a Dice class
-    public static class Dice
-    {
-        private static Random rnd = new Random();
-
-        public static int Roll()
-        {
-            // Returns an integer 1 to 6
-            return rnd.Next(1, 6);
-        }
-    }
     public partial class Form1 : Form
     {
         // Declare a static Timer object called myTimer using the new Timer() constructor
         static System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
         // Declare a static boolean called exitFlag and set it to false
-        static bool exitFlag = false;
+        static Boolean exitFlag = false;
 
         public Form1()
         {
@@ -46,20 +35,20 @@ namespace ChangingHPWithTimer
             // Start your timer using the Timer class's Start method
             myTimer.Start();
             // Use a while loop to repeat while the exitFlag is false
-            while (exitFlag == false)
+            // This code processes all the events in the queue.
+            Application.DoEvents();
+         }
+        // Create a Dice class
+        public static class Dice
+        {
+            private static Random rnd = new Random();
+
+            public static int Roll()
             {
-                // This code processes all the events in the queue.
-                Application.DoEvents();
-
-
+                // Returns an integer 1 to 6
+                return rnd.Next(1, 6);
             }
-
-            // Stop your timer using the Timer class's Stop method
-            myTimer.Stop();
-
-            return 0;
         }
-
         public void timer1_Tick(object sender, EventArgs e)
         {
             // use int.Parse(label2.Text) to get the current health and store it in a new int called playerHealth
